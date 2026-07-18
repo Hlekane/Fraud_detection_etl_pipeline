@@ -1,0 +1,26 @@
+CustomerID,Name,Country,AccountStatus
+C001,John Smith,USA,Active
+C002,Maria Lopez,Spain,Active
+C003,Wei Zhang,China,Active
+C004,Peter Brown,UK,Suspended
+C005,Aisha Khan,UAE,Active
+C006,Liam Johnson,France,Active
+C007,Emma Wilson,Germany,Active
+C008,Noah Davis,Canada,Active
+C009,Olivia Taylor,Brazil,Active
+C010,Ethan Moore,Japan,Active
+C011,Sophia Martin,Australia,Active
+C012,James Anderson,Australia,Active
+C013,Isabella Thomas,Australia,Suspended
+C014,Lucas White,USA,Active
+C015,Mia Jackson,South Africa,Suspended
+C016,Benjamin Harris,Brazil,Active
+C017,Charlotte Lewis,South Africa,Suspended
+C018,Daniel Walker,France,Active
+C019,Amelia Hall,Germany,Active
+C020,Henry Young,Australia,Active
+C021,Grace King,Germany,Suspended
+C022,Michael Scott,Australia,Active
+C023,Chloe Green,Brazil,Active
+C024,David Adams,Australia,Active
+C025,Ella Baker,Canada,Suspended

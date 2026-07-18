@@ -1,0 +1,26 @@
+ETL that extract, apply fraud rules and flag suspicious records
+
+how do we do it in sql?
+
+what do we have?
+
+Two data sources: Transaction records and customer records
+What do we need to do? Build an ETL to identify and flag potentially fraudulent transactions
+How do we do that? Apply business rules and load flagged records into a staging table
+
+What does this mean? it means we have to identify and flag potential fraud transactions. For every new transaction extract and move the flagged transactions into the staging table for investigation.
+
+What we need to achieve?
+
+Extract the data from customer and transactions csv into staging (Create customer and transaction tables)
+Transform, join transactions to customer table and apply fraud detection rules:
+ - transactions on suspended account
+ - amount above a threshold >$5000
+ - Location does not match the customer's country
+Load, write all flagged transactions into a flaggedTransactions table
+Analyse, run sql queries in ssms to review and summerise flagged records
+
+What do we need to solve this problem?
+
+Create the staging db and a dwh db
+Go to ssis : Load the cus and trans tables to the staging
